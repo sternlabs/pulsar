@@ -1,0 +1,34 @@
+| QFN32 | Bank | Pin/Ball Function | Dual Function | Differential | I/O Grouping |
+|-------+------+-------------------+---------------+--------------+--------------|
+|     1 |    0 | PT6C              | TDO           | True_OF_PT6D | -            |
+|     2 |    - | VCC               | -             | -            | -            |
+|     3 |    - | GND               | -             | -            | -            |
+|     4 |    3 | PL5C              | PCLKT3_0      | True_OF_PL5D | -            |
+|     5 |    3 | PL5D              | PCLKC3_0      | Comp_OF_PL5C | -            |
+|     6 |    3 | VCCIO3            | -             | -            | +            |
+|     7 |    2 | VCCIO2            | -             | -            | -            |
+|     8 |    2 | PB2A              | CSSPIN        | True_OF_PB2B | -            |
+|     9 |    2 | PB2C              | MCLK/CCLK     | True_OF_PB2D | -            |
+|    10 |    2 | PB2D              | SO/SPISO      | Comp_OF_PB2C | -            |
+|    11 |    2 | PB4A              | PCLKT2_0      | True_OF_PB4B | +            |
+|    12 |    2 | PB4B              | PCLKC2_0      | Comp_OF_PB4A | +            |
+|    13 |    2 | PB4C              | PCLKT2_1      | True_OF_PB4D | +            |
+|    14 |    2 | PB4D              | PCLKC2_1      | Comp_OF_PB4C | +            |
+|    15 |    2 | VCCIO2            | -             | -            | -            |
+|    16 |    2 | PB9A              | SN            | True_OF_PB9B | -            |
+|    17 |    2 | PB9B              | SI/SISPI      | Comp_OF_PB9A | -            |
+|    18 |    - | VCC               | -             | -            | -            |
+|    19 |    1 | VCCIO1            | -             | -            | +            |
+|    20 |    1 | PR5B              | PCLKC1_0      | Comp_OF_PR5A | -            |
+|    21 |    1 | PR5A              | PCLKT1_0      | True_OF_PR5B | -            |
+|    22 |    - | GND               | -             | -            | -            |
+|    23 |    0 | PT9D              | DONE          | Comp_OF_PT9C | -            |
+|    24 |    0 | VCCIO0            | -             | -            | +            |
+|    25 |    0 | PT9B              | PROGRAMN      | Comp_OF_PT9A | +            |
+|    26 |    0 | PT9A              | JTAGENB       | True_OF_PT9B | +            |
+|    27 |    0 | PT8D              | SDA/PCLKC0_0  | Comp_OF_PT8C | +            |
+|    28 |    0 | PT8C              | SCL/PCLKT0_0  | True_OF_PT8D | +            |
+|    29 |    0 | PT7B              | TMS           | Comp_OF_PT7A | +            |
+|    30 |    0 | PT7A              | TCK           | True_OF_PT7B | +            |
+|    31 |    0 | VCCIO0            | -             | -            | -            |
+|    32 |    0 | PT6D              | TDI           | Comp_OF_PT6C | -            |
