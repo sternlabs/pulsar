@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:conn-2x5
+LIBS:jtag
 LIBS:thermistor
 LIBS:max9938
 LIBS:conn-4
@@ -25,6 +27,7 @@ LIBS:+1v2
 LIBS:2450BM14E0003
 LIBS:nrf51822
 LIBS:xo2-256
+LIBS:pulsar-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
