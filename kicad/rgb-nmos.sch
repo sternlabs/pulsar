@@ -155,7 +155,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 2100 4350 2100
 Wire Wire Line
-	4300 2200 4150 2200
+	4150 2200 4350 2200
 Wire Wire Line
 	4150 2200 4150 3400
 Wire Wire Line
