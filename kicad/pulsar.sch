@@ -770,17 +770,6 @@ Text Label 7350 2100 0    50   ~ 0
 NRF_SWDCLK
 Text Label 7350 2200 0    50   ~ 0
 NRF_SWDIO/~RESET
-$Comp
-L DGND #PWR?
-U 1 1 542F56C5
-P 8550 -250
-F 0 "#PWR?" V 8670 -250 60  0001 C CNN
-F 1 "DGND" H 8550 -350 40  0000 C CNN
-F 2 "" H 8550 -300 60  0000 C CNN
-F 3 "" H 8550 -300 60  0000 C CNN
-	1    8550 -250
-	-1   0    0    -1  
-$EndComp
 NoConn ~ 4750 4250
 Text Label 5400 4150 2    50   ~ 0
 BUTTON2
@@ -1714,8 +1703,6 @@ Wire Wire Line
 	8600 4050 8800 4050
 NoConn ~ 8800 4450
 NoConn ~ 10000 4450
-NoConn ~ 10000 4350
-NoConn ~ 10000 4250
 Text Label 10850 4150 2    50   ~ 0
 NRF_SWDCLK
 Text Label 10850 4050 2    50   ~ 0
@@ -1806,4 +1793,20 @@ Text Label 8700 6100 0    50   ~ 0
 AUX4
 Text Label 8700 6200 0    50   ~ 0
 AUX5
+Wire Wire Line
+	6050 2250 6600 2250
+Text Label 6600 2350 2    50   ~ 0
+RX
+Wire Wire Line
+	6600 2350 6050 2350
+Text Label 6600 2250 2    50   ~ 0
+TX
+Wire Wire Line
+	10000 4250 10550 4250
+Text Label 10550 4350 2    50   ~ 0
+RX
+Wire Wire Line
+	10550 4350 10000 4350
+Text Label 10550 4250 2    50   ~ 0
+TX
 $EndSCHEMATC
