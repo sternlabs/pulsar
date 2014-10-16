@@ -5,7 +5,7 @@
     (no_connects 190)
     (area 0 0 0 0)
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 0)
     (zones 0)
     (modules 72)
@@ -2223,6 +2223,9 @@
     (pad 2 thru_hole oval (at 1.75 0 90) (size 2 2.6) (drill 1.2) (layers *.Cu *.Mask))
   )
 
+  (gr_text "50R Antenna feed on FR-4 1.2mm/1.6mm:\ncoplanar wave guide with ground plane,\n750um conductor, 160um spacing\n(see antenna_waveguide.xsctn)" (at 25.75 81.25) (layer Cmts.User)
+    (effects (font (size 1.5 1.5) (thickness 0.05)) (justify left))
+  )
   (gr_circle (center 212.25 124.75) (end 214.75 124.75) (layer Dwgs.User) (width 0.2))
   (dimension 50 (width 0.3) (layer Dwgs.User)
     (gr_text "50.000 mm" (at 161 131.35) (layer Dwgs.User)

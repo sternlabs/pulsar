@@ -1,0 +1,79 @@
+#----------------------------------
+# File:  /home/corecode/sternlabs/pulsar/kicad/antenna_waveguide.xsctn
+# Thu Oct 16 18:16:03 CEST 2014
+#----------------------------------
+
+package require csdl
+
+set _title "Antenna feed"
+set ::Stackup::couplingLength "0.005"
+set ::Stackup::riseTime "25"
+set ::Stackup::frequency "1000MHz"
+set ::Stackup::defaultLengthUnits "microns"
+set CSEG 50
+set DSEG 50
+
+GroundPlane ground  \
+	 -thickness 35 \
+	 -yOffset 0.0 \
+	 -xOffset 0.0
+DielectricLayer core  \
+	 -thickness 1200 \
+	 -lossTangent 0.016 \
+	 -permittivity 4.34 \
+	 -permeability 1.0 \
+	 -yOffset 0.0 \
+	 -xOffset 0.0
+RectangleConductors ground_cond  \
+	 -width 1000 \
+	 -pitch 2070 \
+	 -conductivity 5.0e7S/m \
+	 -height 35 \
+	 -number 2 \
+	 -yOffset 0.0 \
+	 -xOffset -1000
+RectangleConductors feed  \
+	 -width 750 \
+	 -pitch 5000 \
+	 -conductivity 5.0e7S/m \
+	 -height 35 \
+	 -number 1 \
+	 -yOffset 0.0 \
+	 -xOffset 160
+DielectricLayer mask  \
+	 -thickness 18 \
+	 -lossTangent 0.0 \
+	 -permittivity 3.3 \
+	 -permeability 1.0 \
+	 -yOffset 0.0 \
+	 -xOffset 0.0
+RectangleDielectric left_gnd_mask  \
+	 -width 1036 \
+	 -pitch 1.0 \
+	 -height 35 \
+	 -number 1 \
+	 -lossTangent 0.0 \
+	 -permittivity 3.3 \
+	 -permeability 1.0 \
+	 -yOffset 0.0 \
+	 -xOffset -1018
+RectangleDielectric right_gnd_mask  \
+	 -width 1036 \
+	 -pitch 1.0 \
+	 -height 35 \
+	 -number 1 \
+	 -lossTangent 0.0 \
+	 -permittivity 3.3 \
+	 -permeability 1.0 \
+	 -yOffset 0.0 \
+	 -xOffset 1052
+RectangleDielectric feed_mask  \
+	 -width 786 \
+	 -pitch 1.0 \
+	 -height 35 \
+	 -number 1 \
+	 -lossTangent 0.0 \
+	 -permittivity 3.3 \
+	 -permeability 1.0 \
+	 -yOffset 0 \
+	 -xOffset 142
