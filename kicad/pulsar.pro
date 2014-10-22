@@ -1,4 +1,4 @@
-update=Fri 17 Oct 2014 02:03:26 AM CEST
+update=Wed 22 Oct 2014 02:50:54 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -59,10 +59,10 @@ version=1
 PageLayoutDescrFile=
 LastNetListRead=pulsar.net
 UseCmpFile=1
-PadDrill=3.2
-PadDrillOvalY=3.2
-PadSizeH=5.5
-PadSizeV=5.5
+PadDrill=0.3
+PadDrillOvalY=0.3
+PadSizeH=0.3
+PadSizeV=0.3
 PcbTextSizeV=1.5
 PcbTextSizeH=1.5
 PcbTextThickness=0.3
