@@ -2025,4 +2025,6 @@ Wire Wire Line
 	3800 6200 4200 6200
 Wire Wire Line
 	3800 6300 4200 6300
+Text Notes 4100 3300 0    50   ~ 0
+XXX test point for SPI_PGM_CS
 $EndSCHEMATC
