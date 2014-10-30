@@ -2027,4 +2027,8 @@ Wire Wire Line
 	3800 6300 4200 6300
 Text Notes 4100 3300 0    50   ~ 0
 XXX test point for SPI_PGM_CS
+Text Notes 550  2300 0    50   ~ 0
+XXX inductor?
+Text Label 1100 750  0    50   ~ 0
+RAW_VIN
 $EndSCHEMATC
