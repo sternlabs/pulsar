@@ -3,9 +3,9 @@
   (general
     (links 245)
     (no_connects 0)
-    (area 99.899999 99.899999 150.100001 150.100001)
+    (area 25.725 76.9 173 167.700001)
     (thickness 1.6)
-    (drawings 7)
+    (drawings 8)
     (tracks 1087)
     (zones 0)
     (modules 77)
@@ -2389,6 +2389,9 @@
       (net 1 "Net-(C1-Pad1)"))
   )
 
+  (gr_text "sternlabs\n.:.pulsar" (at 120.75 115) (layer F.Mask)
+    (effects (font (size 1.5 1.5) (thickness 0.15)) (justify left))
+  )
   (gr_text "50R Antenna feed on FR-408 170um\ncoplanar wave guide with ground plane,\n260um conductor, 135um spacing\n(see antenna_waveguide_4l.xsctn)" (at 25.75 81.25) (layer Cmts.User)
     (effects (font (size 1.5 1.5) (thickness 0.05)) (justify left))
   )
