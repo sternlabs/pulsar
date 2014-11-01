@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:testpoint
 LIBS:mounthole
 LIBS:power_flag
 LIBS:conn-2x5
@@ -439,7 +440,7 @@ U 1 1 542AEA61
 P 850 2100
 F 0 "FB1" H 775 2025 40  0000 L CNN
 F 1 "FERRITE" H 850 2200 60  0001 C CNN
-F 2 "SMD-1005:SMD-1005" H 850 2000 60  0001 C CNN
+F 2 "SMD-2012:SMD-2012" H 850 2000 60  0001 C CNN
 F 3 "" H 850 2000 60  0000 C CNN
 	1    850  2100
 	1    0    0    -1  
@@ -2025,10 +2026,25 @@ Wire Wire Line
 	3800 6200 4200 6200
 Wire Wire Line
 	3800 6300 4200 6300
-Text Notes 4100 3300 0    50   ~ 0
-XXX test point for SPI_PGM_CS
 Text Notes 550  2300 0    50   ~ 0
 XXX inductor?
 Text Label 1100 750  0    50   ~ 0
 RAW_VIN
+$Comp
+L TESTPOINT TP1
+U 1 1 5454B95A
+P 8250 5950
+F 0 "TP1" H 8325 6000 30  0000 C CNN
+F 1 "PGM" H 8250 6125 30  0000 C CNN
+F 2 "libs:TESTPOINT-1.0" H 8250 5950 50  0001 C CNN
+F 3 "" H 8250 5950 50  0000 C CNN
+	1    8250 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 5950 8250 6050
+Wire Wire Line
+	8250 6050 7600 6050
+Text Label 7600 6050 0    50   ~ 0
+SPI_CS_PGM
 $EndSCHEMATC
